@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyProfile">
+
+        <TextView
+            android:id="@+id/myProfileName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/userName"
+            android:textAppearance="@style/ThemeOverlay.AppCompat.Dark"
+            android:textSize="25sp"
+            app:layout_constraintEnd_toEndOf="@+id/imageView3"
+            app:layout_constraintStart_toStartOf="@+id/imageView3"
+            app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+        <TextView
+            android:id="@+id/myProfileUID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="@string/uin"
+            android:textAppearance="@style/ThemeOverlay.AppCompat.Dark"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="@+id/myProfileName"
+            app:layout_constraintHorizontal_bias="0.507"
+            app:layout_constraintStart_toStartOf="@+id/myProfileName"
+            app:layout_constraintTop_toBottomOf="@+id/myProfileName" />
+
+        <ImageView
+            android:id="@+id/myProfileQRCode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/image_border"
+            android:src="@drawable/ic_apps_black_24dp"
+            app:layout_constraintEnd_toEndOf="@+id/myProfileUID"
+            app:layout_constraintStart_toStartOf="@+id/myProfileUID"
+            app:layout_constraintTop_toBottomOf="@+id/myProfileUID" />
+
+        <ImageButton
+            android:id="@+id/myPtofileGoBack"
+            android:layout_width="66dp"
+            android:layout_height="35dp"
+            android:background="?android:selectableItemBackground"
+            android:onClick="goBackToDashboard"
+            android:src="@drawable/ic_arrow_back_black_24dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/myProfileQRCode"
+            app:layout_constraintHorizontal_bias="0.095"
+            app:layout_constraintStart_toStartOf="@+id/myProfileQRCode"
+            app:layout_constraintTop_toBottomOf="@+id/myProfileQRCode"
+            app:layout_constraintVertical_bias="0.22" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+            android:src="@drawable/ic_launcher_foreground"
+            app:civ_border_color="#cccc"
+            app:civ_border_width="2dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/myProfileScan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/outline_color"
+            android:text="Scan Qr"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.569"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@id/myPtofileGoBack"
+            app:layout_constraintVertical_bias="0.0" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

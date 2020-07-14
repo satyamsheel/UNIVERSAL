@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/frag2doc1"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textAppearance="@style/ThemeOverlay.MaterialComponents.Dark"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_height="match_parent"
+            android:text="@string/aadhar_card"/>
+
+        <Button
+            android:id="@+id/frag2btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#fafafa"
+            android:textColor="@color/lightPurple"
+            android:gravity="center"
+            android:text="@string/uploadBtn"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/frag2doc2"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textAppearance="@style/ThemeOverlay.MaterialComponents.Dark"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_height="match_parent"
+            android:text="@string/cast_certificate"/>
+
+        <Button
+            android:id="@+id/frag2btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#fafafa"
+            android:textColor="@color/lightPurple"
+            android:gravity="center"
+            android:text="@string/uploadBtn"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/frag2doc3"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textAppearance="@style/ThemeOverlay.MaterialComponents.Dark"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_height="match_parent"
+            android:text="@string/minority_certificate"/>
+
+        <Button
+            android:id="@+id/frag2btn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#fafafa"
+            android:textColor="@color/lightPurple"
+            android:gravity="center"
+            android:text="@string/uploadBtn"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/frag2doc4"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textAppearance="@style/ThemeOverlay.MaterialComponents.Dark"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_height="match_parent"
+            android:text="@string/character_certificate"/>
+
+        <Button
+            android:id="@+id/frag2btn4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#fafafa"
+            android:textColor="@color/lightPurple"
+            android:gravity="center"
+            android:text="@string/uploadBtn"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/frag2doc5"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textAppearance="@style/ThemeOverlay.MaterialComponents.Dark"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_height="match_parent"
+            android:text="@string/residential_proof_certificate"/>
+
+        <Button
+            android:id="@+id/frag2btn5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#fafafa"
+            android:textColor="@color/lightPurple"
+            android:gravity="center"
+            android:text="@string/uploadBtn"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/frag2doc6"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textAppearance="@style/ThemeOverlay.MaterialComponents.Dark"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_height="match_parent"
+            android:text="@string/income_proof_certificate"/>
+
+        <Button
+            android:id="@+id/frag2btn6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#fafafa"
+            android:textColor="@color/lightPurple"
+            android:gravity="center"
+            android:text="@string/uploadBtn"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/frag2doc7"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textAppearance="@style/ThemeOverlay.MaterialComponents.Dark"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_height="match_parent"
+            android:text="@string/income_tax_certificate"/>
+
+        <Button
+            android:id="@+id/frag2btn7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#fafafa"
+            android:textColor="@color/lightPurple"
+            android:gravity="center"
+            android:text="@string/uploadBtn"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/frag2doc8"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textAppearance="@style/ThemeOverlay.MaterialComponents.Dark"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_height="match_parent"
+            android:text="@string/professional_tax_certificate"/>
+
+        <Button
+            android:id="@+id/frag2btn8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#fafafa"
+            android:textColor="@color/lightPurple"
+            android:gravity="center"
+            android:text="@string/uploadBtn"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/frag2doc9"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textAppearance="@style/ThemeOverlay.MaterialComponents.Dark"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_height="match_parent"
+            android:text="@string/goods_service_tax_certificate"/>
+
+        <Button
+            android:id="@+id/frag2btn9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#fafafa"
+            android:textColor="@color/lightPurple"
+            android:gravity="center"
+            android:text="@string/uploadBtn"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/frag2doc10"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textAppearance="@style/ThemeOverlay.MaterialComponents.Dark"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_height="match_parent"
+            android:text="@string/transfer_certificate"/>
+
+        <Button
+            android:id="@+id/frag2btn10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#fafafa"
+            android:textColor="@color/lightPurple"
+            android:gravity="center"
+            android:text="@string/uploadBtn"/>
+
+    </LinearLayout>
+</LinearLayout>
